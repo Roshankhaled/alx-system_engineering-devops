@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lt | awk '!/^total/ {print $NF}' | head -n 10
